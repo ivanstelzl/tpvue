@@ -1,0 +1,56 @@
+header{
+    background-color: black;
+    color: white;
+}
+
+.titulo{
+    text-align: center;
+}
+
+nav{
+    width: 98%;
+margin: 1rem;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+}
+
+.nav-link:hover{
+background-color: lightgrey;
+color:black;
+
+}
+
+footer{
+    background-color: black;
+}
+
+i, h3{
+    color: white;
+    text-align: center;
+}
+
+.iconos{
+    text-align: center;
+}
+
+#sucursalesss{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(25rem,1fr));
+    grid-template-rows: repeat(2,auto-fit);
+    gap: 2rem;
+    margin: 5rem;
+}
+
+h4, p{
+    text-align: center;margin: 0.5rem;
+}
+
+img{
+    display: block;
+    width: 80%;
+    height: 20rem;
+    margin: auto;
+}
